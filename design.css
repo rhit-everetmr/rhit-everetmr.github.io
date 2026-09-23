@@ -1,0 +1,29 @@
+.btn {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size:20px;
+    padding: 10px 20px;
+    
+}
+
+.header {
+    background-color:steelblue;
+    font-size: 3em;
+    padding-left: 10px;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color:aliceblue;
+    color: steelblue;
+}
+
+hr {
+    background-color: steelblue;
+    height: 5px;
+}
