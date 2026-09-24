@@ -10,7 +10,7 @@ document.getElementById("header").innerHTML = `
             <button class="btn" id="resume">Resume</button>
             <div class="dropdown-content">
                 <a href="resume.html#education">Education</a>
-                <a href="resume.html#experience">Work Experience</a>
+                <a href="resume.html#work">Work Experience</a>
                 <a href="resume.html#skills">Technology Skills</a>
             </div>
         </div>
@@ -18,7 +18,7 @@ document.getElementById("header").innerHTML = `
             <button class="btn" id="portfolio">Portfolio</button>
             <div class = "dropdown-content">
                 <a href="portfolio.html#banking-app">Mobile Banking App</a>
-                <a href="portfolio.html#drawing-app">Multi-User Drawing App</a>
+                <a href="portfolio.html#drawing-project">Multi-User Drawing App</a>
             </div>
         </div>
     </div>
