@@ -2,14 +2,49 @@
     <head>
         <link rel = "stylesheet" href = "design.css">
     </head>
-        <body>
-            <main>
-                <section>
-                    <div id = "header"></div>
-                    <hr>
-                    </div>
+        <main>
+            <section>
+                <div id = "header"></div>
+                <hr>
+                <br><br>
+                <hr class = "smallhr">
+                <h1>Portfolio</h1>
+                <hr class = "smallhr">
+            </section>
+            <br><br><br><br><br>
+            <section class = "portfolio-section">
+                <img  class = "portfolio-img-mobile" alt="Image 1 of serrafi storeshop" src="serrafi_photo_1.jpeg"/>
+                <img  class = "portfolio-img-mobile" alt="Image 2 of serrafi storeshop" src="serrafi_photo_2.jpeg"/>
+                <section class = "portfolio-text">
+                    <h2>Mobile Banking App</h2>
+                    <h3>Technology Skills: TypeScript, React Native, SwiftUI, Cmux, Apple Developer, Xcode, Claude Code, AWS Services, DynamoDB</h3>
+                    <p>I worked on this project throughout my internship with SerraFi in a focus on Apple mobile development.</p>
+                    <ul>
+                        <li>Designed and developed a cross-platform banking app in React Native with native Swift components.</li>
+                        <li>Iterated through design and security to ensure app safety to protect sensitive financial data and refined UI/UX.</li>
+                    </ul>
                 </section>
-            </main>
-        </body>
+            </section>
+            <br><br><br><hr class = "smallhr"><br><br><br>
+            <section class = "portfolio-section">
+                <img  class = "portfolio-img-web" alt="Image of multi user drawing application" src="Pikazzo.png"/>
+                <section class = "portfolio-text">
+                    <h2>Multi-User Drawing App</h2>
+                    <h3>Technology Skills: JavaScript, WebSockets, Computer Networks</h3>
+                    <ul>
+                        <li>Follows computer network process and design.</li>
+                        <h3>Front End:</h3>
+                        <li>Initializes event listeners for html, connection, and message listeners.</li>
+                        <li>Renders current page & starts up render loop constantly waiting to rerender.</li>
+                        <h3>Back End:</h3>
+                        <li>Creates new libwebsocket context using port and draw-protocol established with frontend.</li>
+                        <li>Loops through context, listening for open, receive, or close messages.</li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <div id = "footer"> </div>
+        </footer>
         <script src = "script.js"></script>
 </html>

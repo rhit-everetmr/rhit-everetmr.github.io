@@ -67,3 +67,23 @@ a:visited {
 a:hover {
     color: red;
 }
+
+.portfolio-section {
+    display:flex;
+}
+
+.portfolio-img-mobile {
+    width: 200px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.portfolio-img-web {
+    width: 420px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.portfolio-text {
+    float:inline-start;
+}
